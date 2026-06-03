@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>View Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page-container">
+
+        <div class="form-container">
+
+            <h1>View Tasks</h1>
+
+            <div id="taskList"></div>
+            <input type="text" id="title" placeholder="Task Title">
+            <button onclick="window.location.href='dashboard.html'">
+                Back to Dashboard
+            </button>
+
+            <button onclick="createTask()">
+                View Task
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        loadTasks();
+    </script>
+
+</body>
+
+</html>

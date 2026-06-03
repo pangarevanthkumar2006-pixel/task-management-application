@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <h2>Task Manager</h2>
+
+        <a href="#">Dashboard</a>
+        <a href="#">Tasks</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+    </div>
+
+    <div class="main-content">
+
+        <div class="topbar">
+            <h1>Dashboard</h1>
+            <div class="profile">Revanth Kumar</div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Tasks</h3>
+                <h1>20</h1>
+            </div>
+
+            <div class="card">
+                <h3>Completed</h3>
+                <h1>12</h1>
+            </div>
+
+            <div class="card">
+                <h3>Pending</h3>
+                <h1>8</h1>
+            </div>
+
+        </div>
+
+        <div class="crud-buttons">
+            <button onclick="window.location.href='create-task.html'">
+                Create Task
+            </button>
+
+            <button onclick="window.location.href='view-tasks.html'">
+                View Tasks
+            </button>
+
+            <button onclick="window.location.href='update-task.html'">
+                Update Task
+            </button>
+
+            <button onclick="window.location.href='delete-task.html'">
+                Delete Task
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
